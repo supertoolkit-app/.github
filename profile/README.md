@@ -7,7 +7,7 @@
 ---
 
 ## 🌐 About Super ToolKit
-**Super ToolKit** (`supertoolkit.app`) is a high-performance, privacy-centric web utility suite offering over 37 free in-browser tools. All multimedia transformations, document manipulations, and file conversions execute locally on the user's device using client-side WebAssembly (WASM), Web Audio API, and native browser canvas pipelines.
+**Super ToolKit** (`supertoolkit.app`) is a high-performance, privacy-centric web utility suite offering over 100+ free in-browser tools. All multimedia transformations, document manipulations, and file conversions execute locally on the user's device using client-side WebAssembly (WASM), Web Audio API, and native browser canvas pipelines.
 
 - **Zero Server Uploads:** Your files never leave your machine.
 - **No Sign-Up or Subscriptions:** Completely free open web application.
