@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offline Developer Utilities: JWT Debugger, JSON to Zod, cURL to Code &amp; SQL Formatter – Super ToolKit Docs</title>
+  <meta name="description" content="Engineering guide to Super ToolKit's 11 client-side developer tools: decode and verify JWT tokens offline, convert JSON to TypeScript & Zod schemas, translate cURL to Fetch/Python/Go, format SQL, and build Cron expressions." />
+  <meta name="keywords" content="jwt debugger offline, decode jwt token without server, json to typescript zod converter, curl to fetch python requests go, sql query formatter postgres bigquery, cron expression builder explainer, unix timestamp epoch converter, chmod calculator 755 644, http security headers csp hsts, git command builder, html live playground" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+  <link rel="canonical" href="https://supertoolkit.app/category/developer-tools/" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Client-Side Developer &amp; DevOps Workbench Reference – Super ToolKit" />
+  <meta property="og:description" content="Never paste production JWTs, API bearer keys, or internal SQL schemas into server-backed websites. Explore 11 zero-telemetry browser utilities for software engineers." />
+  <meta property="og:url" content="https://supertoolkit.app/category/developer-tools/" />
+  <meta property="og:site_name" content="Super ToolKit Documentation" />
+  <meta property="og:image" content="https://supertoolkit.app/og-image.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Offline Developer Utilities: JWT Debugger, JSON to Zod &amp; SQL Formatter" />
+  <meta name="twitter:description" content="11 zero-leak developer tools powered by local AST tokenizers and the Web Crypto API." />
+
+  <link rel="stylesheet" href="./styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Client-Side Developer & DevOps Workbench Reference: Zero-Leak Debugging & Code Generation",
+    "description": "Technical documentation for Super ToolKit's 11 flagship developer tools including JWT Debugger, JSON to TypeScript/Zod, cURL to Code, and SQL Formatter.",
+    "author": {
+      "@type": "Organization",
+      "name": "Super ToolKit",
+      "url": "https://supertoolkit.app/"
+    },
+    "mainEntityOfPage": "https://supertoolkit.app/category/developer-tools/"
+  }
+  </script>
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="top-bar-inner">
+      <span><strong>Developer &amp; DevOps Engineering Guide</strong> • Local AST Parsing • Web Crypto API Verification</span>
+      <div>
+        <a href="https://supertoolkit.app/category/developer-tools/">Open Developer Tools Hub →</a> &nbsp;|&nbsp;
+        <a href="https://supertoolkit.app/">Super ToolKit Home</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./index.html" class="brand">
+        <span>Super ToolKit Docs</span>
+        <span class="brand-badge">Dev Suite</span>
+      </a>
+      <nav class="main-nav" aria-label="Documentation Volumes">
+        <a href="./index.html">Overview &amp; Directory</a>
+        <a href="./audio-video-studio.html">Audio &amp; Video DSP</a>
+        <a href="./pdf-document-security.html">PDF &amp; Documents</a>
+        <a href="./developer-code-utilities.html" class="active">Developer Tools</a>
+        <a href="./data-spreadsheets-text.html">Data &amp; Text</a>
+        <a href="./image-graphics-utilities.html">Images &amp; Utilities</a>
+        <a href="./privacy-cloud-comparisons.html">Cloud Comparisons</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <span class="eyebrow">Volume 3 • Zero-Telemetry Engineering &amp; Security Utilities</span>
+      <h1>Why Software Engineers Use Local Browser AST &amp; Web Crypto Tools Instead of Cloud Debuggers</h1>
+      <p class="lead">
+        During an incident response or API integration, it is dangerously easy to paste a live production JSON Web Token, an internal `curl` request containing `Authorization: Bearer` headers, or a proprietary database query into a random search result—accidentally logging sensitive secrets on an external server. The <strong><a href="https://supertoolkit.app/category/developer-tools/">Super ToolKit Developer &amp; Code Suite</a></strong> executes 100% in your browser memory with zero network telemetry.
+      </p>
+      <div class="cta-row">
+        <a href="https://supertoolkit.app/category/developer-tools/" class="btn-primary">Open Developer Tools Hub</a>
+        <a href="https://supertoolkit.app/jwt-debugger/" class="btn-secondary">Launch JWT Debugger</a>
+        <a href="https://supertoolkit.app/json-to-typescript/" class="btn-secondary">JSON to TypeScript &amp; Zod</a>
+      </div>
+    </section>
+
+    <h2>1. API Security, Token Inspection &amp; Code Generation</h2>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3><a href="https://supertoolkit.app/jwt-debugger/">JWT Debugger &amp; Token Inspector</a></h3>
+        <p>
+          Decode JSON Web Tokens (JWS) immediately without transmitting tokens over the network. Inspect the JOSE header (`alg`, `typ`, `kid`), pretty-print payload claims, view live countdown timers for `exp` (expiration) and `nbf` (not-before) timestamps, and cryptographically verify HMAC-SHA256 (`HS256`, `HS384`, `HS512`) signatures directly via your browser's native <code>window.crypto.subtle</code> API.
+        </p>
+        <div class="card-meta">Route: <a href="https://supertoolkit.app/jwt-debugger/">supertoolkit.app/jwt-debugger/</a></div>
+      </div>
+
+      <div class="card">
+        <h3><a href="https://supertoolkit.app/json-to-typescript/">JSON to TypeScript &amp; Zod Schema Converter</a></h3>
+        <p>
+          Paste any raw REST or GraphQL JSON response and instantly generate strict TypeScript `interface` definitions, `type` aliases, runtime <strong>Zod validation schemas</strong> (`z.object({...})`), and draft-07 JSON Schema. Automatically detects nested arrays, union types, ISO dates, and nullable fields.
+        </p>
+        <div class="card-meta">Route: <a href="https://supertoolkit.app/json-to-typescript/">supertoolkit.app/json-to-typescript/</a></div>
+      </div>
+
+      <div class="card">
+        <h3><a href="https://supertoolkit.app/curl-to-code/">cURL to Multi-Language Code Converter</a></h3>
+        <p>
+          Copy any request as `cURL` from Chrome DevTools or Postman and convert it into clean, idiomatic code for <strong>JavaScript Fetch</strong>, <strong>Axios</strong>, <strong>Python Requests &amp; HTTPX</strong>, <strong>Go (`net/http`)</strong>, <strong>Node.js</strong>, <strong>PHP</strong>, and <strong>Rust (`reqwest`)</strong>—preserving headers, cookies, query strings, multipart forms, and JSON bodies.
+        </p>
+        <div class="card-meta">Route: <a href="https://supertoolkit.app/curl-to-code/">supertoolkit.app/curl-to-code/</a></div>
+      </div>
+
+      <div class="card">
+        <h3><a href="https://supertoolkit.app/sql-formatter/">SQL Query Formatter &amp; Minifier</a></h3>
+        <p>
+          Turn sprawling, single-line ORM logs or legacy stored procedures into cleanly indented SQL across <strong>PostgreSQL</strong>, <strong>MySQL</strong>, <strong>Google BigQuery</strong>, <strong>SQLite</strong>, and <strong>SQL Server (T-SQL)</strong>. Customize uppercase/lowercase keyword normalization, indentation width, and one-click query minification.
+        </p>
+        <div class="card-meta">Route: <a href="https://supertoolkit.app/sql-formatter/">supertoolkit.app/sql-formatter/</a></div>
+      </div>
+    </div>
+
+    <h2>2. DevOps, Linux Systems, Scheduling &amp; Time Engineering</h2>
+    <p>
+      Whether configuring a Kubernetes `CronJob`, auditing Linux server file permissions, or correlating distributed microservice logs across time zones, these tools eliminate manual lookup errors:
+    </p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>DevOps Utility &amp; Canonical URL</th>
+            <th>Technical Capabilities &amp; Engineering Workflows</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong><a href="https://supertoolkit.app/cron-expression-builder/">Cron Expression Builder &amp; Explainer</a></strong></td>
+            <td>
+              Interactive 5-field crontab editor (`minute`, `hour`, `day-of-month`, `month`, `day-of-week`) that translates obscure expressions like <code>*/15 9-17 * * 1-5</code> into clear plain English and calculates the exact next 10 scheduled execution timestamps.
+            </td>
+          </tr>
+          <tr>
+            <td><strong><a href="https://supertoolkit.app/unix-timestamp-converter/">Unix Timestamp &amp; Epoch Converter</a></strong></td>
+            <td>
+              Real-time Unix epoch clock with automatic precision detection for seconds (10-digit), milliseconds (13-digit), and microseconds (16-digit). Includes ISO-8601 UTC/local conversion, relative duration calculators, and batch timestamp log translation.
+            </td>
+          </tr>
+          <tr>
+            <td><strong><a href="https://supertoolkit.app/chmod-calculator/">Chmod Permissions Calculator &amp; Linux Studio</a></strong></td>
+            <td>
+              Visual checkbox grid for Owner, Group, and Public read/write/execute bits plus special Unix flags (`SUID`, `SGID`, `Sticky Bit`). Instantly converts between octal (`chmod 755`, `chmod 600`, `chmod 644`) and symbolic (`-rwxr-xr-x`) notations and builds ready-to-copy recursive `chmod -R` and `chown` commands.
+            </td>
+          </tr>
+          <tr>
+            <td><strong><a href="https://supertoolkit.app/http-status-header-inspector/">HTTP Security Headers &amp; Status Code Studio</a></strong></td>
+            <td>
+              Two tools in one: (1) Interactive generator for production HTTP security headers (`Content-Security-Policy`, `Strict-Transport-Security`, `Access-Control-Allow-Origin`, `X-Frame-Options`, `Permissions-Policy`), and (2) RFC specification encyclopedia for all 1xx–5xx HTTP status codes including Googlebot SEO crawl impact.
+            </td>
+          </tr>
+          <tr>
+            <td><strong><a href="https://supertoolkit.app/git-command-builder/">Git Workflow &amp; Command Studio</a></strong></td>
+            <td>
+              Step-by-step interactive decision tree for high-stakes Git operations: safely undoing a pushed commit (`git revert` vs `git reset --soft`), interactive commit squashing, cherry-picking ranges, cleaning untracked files, and managing stash stacks without losing work.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>3. Frontend Web Development, XSS Escaping &amp; Live Code Sandbox</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3><a href="https://supertoolkit.app/html-studio/">HTML Formatter &amp; Live Studio Playground</a></h3>
+        <p>
+          A fast, zero-login CodePen alternative that runs entirely in your browser. Write and beautify HTML5, CSS3, and vanilla JavaScript with an instant sandboxed iframe preview, responsive viewport testing, and a built-in JavaScript console REPL for rapid prototyping.
+        </p>
+        <div class="card-meta">Route: <a href="https://supertoolkit.app/html-studio/">supertoolkit.app/html-studio/</a></div>
+      </div>
+
+      <div class="card">
+        <h3><a href="https://supertoolkit.app/html-entity-encoder/">HTML Entity &amp; Unicode Code Point Studio</a></h3>
+        <p>
+          Sanitize user strings against Cross-Site Scripting (XSS) by encoding reserved HTML characters (`&amp;`, `&lt;`, `&gt;`, `&quot;`, `&#39;`), or convert between Named entities (`&amp;copy;`), Decimal (`&amp;#169;`), Hexadecimal (`&amp;#xA9;`), JavaScript `\uXXXX` escapes, and CSS `\00A9` escapes with a searchable Unicode symbol reference.
+        </p>
+        <div class="card-meta">Route: <a href="https://supertoolkit.app/html-entity-encoder/">supertoolkit.app/html-entity-encoder/</a></div>
+      </div>
+    </div>
+
+    <h2>Quick Trigger via the Browser Address Bar (`stk` Omnibox)</h2>
+    <p>
+      Engineers who install the <a href="https://chromewebstore.google.com/detail/ockoikleklhcihmgmbiopkecmfndokpm">Super ToolKit Chrome &amp; Brave Extension</a> can launch any developer utility directly from the keyboard without leaving their IDE or documentation tab. Read more in our <a href="./data-spreadsheets-text.html">Data &amp; Text Engineering Guide</a> to see complementary tools like our <a href="https://supertoolkit.app/regex-tester-studio/">Regex Tester Studio</a> and <a href="https://supertoolkit.app/json-cleaner/">JSON Cleaner</a>.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h4>Super ToolKit Developer Suite</h4>
+        <p style="color:#94a3b8; font-size:0.88rem;">
+          11 zero-leak developer and DevOps utilities running 100% locally in your browser via AST parsers and Web Crypto.
+        </p>
+      </div>
+      <div>
+        <h4>Documentation Volumes</h4>
+        <ul>
+          <li><a href="./index.html">Master Directory &amp; Overview</a></li>
+          <li><a href="./audio-video-studio.html">Audio Mastering &amp; Video DSP</a></li>
+          <li><a href="./pdf-document-security.html">PDF Security &amp; Document Suite</a></li>
+          <li><a href="./developer-code-utilities.html">Developer &amp; DevOps Workbench</a></li>
+          <li><a href="./data-spreadsheets-text.html">Data, Spreadsheets &amp; Text</a></li>
+          <li><a href="./image-graphics-utilities.html">Image Compression &amp; Utilities</a></li>
+          <li><a href="./privacy-cloud-comparisons.html">Cloud Converter Comparisons</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Flagship Dev Tools</h4>
+        <ul>
+          <li><a href="https://supertoolkit.app/jwt-debugger/">JWT Debugger &amp; Inspector</a></li>
+          <li><a href="https://supertoolkit.app/json-to-typescript/">JSON to TypeScript &amp; Zod</a></li>
+          <li><a href="https://supertoolkit.app/curl-to-code/">cURL to Code Converter</a></li>
+          <li><a href="https://supertoolkit.app/sql-formatter/">SQL Query Formatter</a></li>
+          <li><a href="https://supertoolkit.app/cron-expression-builder/">Cron Expression Builder</a></li>
+          <li><a href="https://supertoolkit.app/html-studio/">HTML Live Playground</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>More Dev Resources</h4>
+        <ul>
+          <li><a href="https://supertoolkit.app/category/developer-tools/">Developer Category Hub</a></li>
+          <li><a href="https://supertoolkit.app/chmod-calculator/">Linux Chmod Calculator</a></li>
+          <li><a href="https://supertoolkit.app/http-status-header-inspector/">HTTP Headers &amp; Status Codes</a></li>
+          <li><a href="https://supertoolkit.app/git-command-builder/">Git Command Studio</a></li>
+          <li><a href="https://supertoolkit.app/unix-timestamp-converter/">Unix Epoch Converter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Super ToolKit (<a href="https://supertoolkit.app/">supertoolkit.app</a>). All rights reserved.</span>
+      <span><a href="./index.html">← Back to Master Documentation Directory</a></span>
+    </div>
+  </footer>
+
+</body>
+</html>
